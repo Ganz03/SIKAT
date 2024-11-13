@@ -61,7 +61,7 @@
                     </div>
                     <!-- Button Akademik di Kiri -->
                     <div class="mt-6 flex justify-start">
-                        <button onclick="window.location.href='{{ url('/buat_irs') }}'" class="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-full flex items-center">
+                        <button onclick= window.location.href='{{ url('/buat_irs')}}' class="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-full flex items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
                                 <path d="M10 3a1 1 0 00-.707.293l-6 6a1 1 0 001.414 1.414L4 10.414V16a1 1 0 001 1h3a1 1 0 001-1v-3h2v3a1 1 0 001 1h3a1 1 0 001-1v-5.586l.293.293a1 1 0 001.414-1.414l-6-6A1 1 0 0010 3z" />
                             </svg>
